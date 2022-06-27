@@ -69,49 +69,6 @@ int main(){
         if(h_C[i] != h_D[i]) printf("%d\n", i);
     }
 
-        // for (int i=0;i<N;i++){
-        //         for (int j=0;j<N;j++){
-        //     printf("%d ", h_A[i*N+j]);
-        //         }
-        //         printf("\n");
-        // }
-
-        // for (int i=0;i<N;i++){
-        //         for (int j=0;j<N;j++){
-        //     printf("%d ", h_B[i*N+j]);
-        //         }
-        //         printf("\n");
-        // }
-
-        //                 for (int i=0;i<N;i++){
-        //         for (int j=0;j<N;j++){
-        //     printf("%d ", h_asd[i*N+j]);
-        //         }
-        //         printf("\n");
-        // }
-
-        //                 for (int i=0;i<N;i++){
-        //         for (int j=0;j<N;j++){
-        //     printf("%d ", h_D[i*N+j]);
-        //         }
-        //         printf("\n");
-        // }
-
-        
-        //                 for (int i=0;i<N;i++){
-        //         for (int j=0;j<N;j++){
-        //     printf("%d ", h_C[i*N+j]);
-        //         }
-        //         printf("\n");
-        // }
-
-    // for (int i=0;i<N*N;i++){
-    //     if(h_D[i] != h_asd[i*N+j]){
-    //         printf("%d asd\n", i);
-    //     }
-        // if(h_D[i]!=h_asd[i]) printf("nor\n");
-    // 
-
     cudaEventRecord(stop, cuda_stream);
     cudaEventSynchronize(stop);
 
