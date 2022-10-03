@@ -11,6 +11,10 @@ GPU의 SM을 결정하기 위해 grid size와 block size가 수정 가능한 hea
 Random seed와 number set, matrix를 받기 위한 함수들
 </br>
 </br>
+### high_core.cu
+Core intensive한 연산을 위해 dependent한 사칙연산을 반복한 code
+</br>
+</br>
 ### matrix_cal.cu
 SM내에 행렬 곱을 연산하기 위한 함수들
 d_mm_normal은 일반적인 연산
